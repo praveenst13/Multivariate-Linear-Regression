@@ -31,7 +31,7 @@ regr=linear_model.LinearRegression()
 regr.fit(x,y)
 print("Coefficient:",regr.coef_)
 print("Intercept:",regr.intercept_)
-predictedCO2=regr.predict([[3300,1300]])
+predictedCO2=regr.predict([[3200,1200]])
 print("Predicted CO@ for the corresponding weight and volume",predictedCO2)
 
 
@@ -42,8 +42,6 @@ print("Predicted CO@ for the corresponding weight and volume",predictedCO2)
 ## Output:
 
 ![img](outt.png)
-
-<br>
 
 ## Result
 Thus the multivariate linear regression is implemented and predicted the output using python program.
